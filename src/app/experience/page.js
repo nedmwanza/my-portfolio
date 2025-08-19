@@ -1,10 +1,10 @@
 import React from 'react'
-import Projects from '@/components/Projects'
+import Experience from '@/components/Experience'
 
 function page() {
   return (
     <div>
-      <Projects />
+      <Experience/>
     </div>
   )
 }

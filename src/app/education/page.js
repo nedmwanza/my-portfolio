@@ -1,10 +1,10 @@
 import React from 'react'
-import Projects from '@/components/Projects'
+import Education from '@/components/Education'
 
 function page() {
   return (
     <div>
-      <Projects />
+      <Education/>
     </div>
   )
 }
