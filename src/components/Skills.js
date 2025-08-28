@@ -1,4 +1,4 @@
-const skills = ["Next.js", "React Native", "Node.js", "MongoDB", "Firebase", "TailwindCSS"];
+const skills = ["Next.js", "React Native", "Node.js", "PHP", "MongoDB", "MySQL and SQL", "Java", "TailwindCSS", "Boot Strap", "REST APIs"];
 
 export default function Skills() {
   return (
