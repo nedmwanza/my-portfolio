@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="flex justify-center space-x-6 mb-8">
         {/* Facebook */}
         <a
-          href="https://www.facebook.com/yourprofile"
+          href="https://web.facebook.com/ned.mwanza.9"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 hover:text-blue-800 transition-colors"
@@ -20,7 +20,7 @@ export default function Contact() {
 
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/in/yourprofile"
+          href="https://www.linkedin.com/in/ned-mwanza-6b0412367"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 hover:text-blue-800 transition-colors"
