@@ -50,7 +50,7 @@ export default function About() {
 
         {/* Intro */}
         <div className="flex items-start space-x-4 mb-8">
-          <FiUser className="w-15 h-15 text-indigo-600 dark:text-indigo-400 mt-" />
+          <FiUser className="w-15 h-15 text-indigo-600 dark:text-indigo-400 mt-1" />
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
             I am <strong>Masautso Ned Mwanza</strong>, an ICT graduate from
             <strong> Mzuzu University</strong> with hands-on experience in
