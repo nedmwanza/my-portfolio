@@ -1,4 +1,4 @@
-// components/Contact.js
+"use client";
 import { FiMail, FiPhone, FiMapPin } from "react-icons/fi";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { FaFacebookF, FaLinkedinIn, FaMailchimp, FaWhatsapp } from "react-icons/fa";
 import { FiLinkedin, FiFacebook, FiTwitter, FiMail } from "react-icons/fi";

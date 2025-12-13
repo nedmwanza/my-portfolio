@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { motion } from "framer-motion";
 import { FiLayers, FiGithub, FiExternalLink, FiCalendar } from "react-icons/fi";
 

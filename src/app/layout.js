@@ -1,3 +1,4 @@
+"use client";
 import { Geist, Geist_Mono } from "next/font/google";
 import React from "react";
 import { Inter } from "next/font/google";

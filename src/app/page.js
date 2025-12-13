@@ -1,4 +1,4 @@
-// components/Hero.js
+"use client";
 import Image from "next/image";
 import { FiLinkedin, FiFacebook, FiTwitter, FiMail } from "react-icons/fi";
 
