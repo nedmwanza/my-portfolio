@@ -1,6 +1,6 @@
-// components/Navbar.js
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
@@ -18,12 +18,23 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-gray-200 px-6 py-4 md:px-8 shadow-sm">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo/Brand */}
-        <Link
-          href="/"
-          className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent hover:opacity-90 transition"
-        >
-          Ned Mwanza
+        {/* Logo/Brand with profile picture */}
+        <Link href="/" className="flex items-center space-x-3">
+          {/* Profile Picture */}
+          <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden border-2 border-violet-600 shadow-lg">
+            <Image
+              src="/profile.jpeg"
+              alt="Ned Mwanza"
+              width={48}
+              height={48}
+              className="object-cover w-full h-full"
+              priority
+            />
+          </div>
+          {/* Name */}
+          <span className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent hover:opacity-90 transition">
+            Ned Mwanza
+          </span>
         </Link>
 
         {/* Desktop Navigation */}

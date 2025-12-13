@@ -1,36 +1,36 @@
-export const metadata = {
-  title: "Experience | Ned Mwanza",
-  description: "Professional experience and career history of Ned Mwanza",
-};
+import { motion } from "framer-motion";
+import { FiBriefcase } from "react-icons/fi";
 
-export default function Experience() {
-  const jobs = [
-    {
-      role: "Software Developer",
-      company: "Wong-B IT Solutions",
-      period: "2024 – Present",
-      description: "Building a billing app with React Native, SQLite integration, and secure payment handling.",
-    },
-    {
-      role: "Backend Developer (Freelance)",
-      company: "Climate-Smart Tobacco Production System",
-      period: "2023 – 2024",
-      description: "Designed system architecture, automated task scheduling, and integrated real-time weather alerts using Node.js and MongoDB.",
-    },
-  ];
-
+export default function WorkExperience() {
   return (
-    <section className="max-w-5xl mx-auto px-6 py-16">
-      <h1 className="text-4xl font-bold text-indigo-600 mb-8">Experience</h1>
-      <div className="space-y-8">
-        {jobs.map((job, idx) => (
-          <div key={idx} className="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300">
-            <h2 className="text-2xl font-semibold">{job.role}</h2>
-            <p className="text-gray-600">{job.company} • {job.period}</p>
-            <p className="mt-2 text-gray-700">{job.description}</p>
-          </div>
-        ))}
-      </div>
+    <section className="mb-16">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+      >
+        <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+          <FiBriefcase className="text-indigo-600" />
+          Work Experience
+        </h3>
+
+        <div className="bg-white rounded-xl shadow p-6 border-l-4 border-indigo-600">
+          <h4 className="text-lg font-semibold text-gray-800">
+            IT Technician
+          </h4>
+          <p className="text-sm text-gray-500 mb-3">
+            Tee Components and Communication | Oct 2024 – May 2025
+          </p>
+
+          <ul className="list-disc list-inside text-gray-700 space-y-2">
+            <li>Diagnosed and resolved hardware and software issues.</li>
+            <li>Performed system maintenance to ensure optimal performance.</li>
+            <li>Installed, configured, and upgraded ICT systems.</li>
+            <li>Provided network support and troubleshooting for end-users.</li>
+          </ul>
+        </div>
+      </motion.div>
     </section>
   );
 }
