@@ -1,22 +1,26 @@
 "use client";
-import { FiMail, FiPhone, FiMapPin } from "react-icons/fi";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FiMail, FiPhone, FiMapPin, FiCode } from "react-icons/fi";
+import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <div className="
+    <div
+      className="
       min-h-screen flex flex-col justify-center items-center
       bg-gray-50 dark:bg-gray-900
       py-12 px-4 sm:px-6 lg:px-8
       transition-colors duration-300
-    ">
-      <div className="
+    "
+    >
+      <div
+        className="
         max-w-md w-full
         bg-white dark:bg-gray-800
         p-8 rounded-2xl
         shadow-md dark:shadow-lg
         border border-gray-100 dark:border-gray-700
-      ">
+      "
+      >
         <h2 className="text-3xl font-semibold text-gray-900 dark:text-gray-100 mb-2 text-center">
           Contact Information
         </h2>
@@ -71,6 +75,31 @@ export default function Contact() {
           </p>
           <div className="flex justify-center space-x-6">
             <a
+              href="tel:+265888138980"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
+            >
+              <FiPhone size={22} />
+            </a>
+
+            <a
+              href="https://wa.me/265888138980"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
+            >
+              <FaWhatsapp size={22} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ned-mwanza-6b0412367"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
+            >
+              <FiMail size={22} />
+            </a>
+            <a
               href="https://web.facebook.com/ned.mwanza.9"
               target="_blank"
               rel="noopener noreferrer"
@@ -87,21 +116,6 @@ export default function Contact() {
               <FaLinkedin size={22} />
             </a>
           </div>
-        </div>
-
-        {/* CTA */}
-        <div className="mt-8 text-center">
-          <a
-            href="mailto:nedmwanza@gmail.com"
-            className="
-              inline-flex items-center px-6 py-3
-              bg-indigo-600 hover:bg-indigo-700
-              text-white rounded-lg font-medium
-              transition
-            "
-          >
-            Send Email
-          </a>
         </div>
       </div>
     </div>

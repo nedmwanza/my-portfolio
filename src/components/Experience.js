@@ -11,8 +11,8 @@ const experiences = [
       "Manage and update the university website and online systems.",
       "Develop features for online admission applications and digital forms.",
       "Prepare institutional reports, meeting minutes, and administrative documentation.",
-      "Support academic and administrative ICT operations."
-    ]
+      "Support academic and administrative ICT operations.",
+    ],
   },
   {
     title: "IT Technician",
@@ -22,9 +22,9 @@ const experiences = [
       "Diagnosed and resolved hardware and software issues across ICT infrastructure.",
       "Performed routine system maintenance to ensure optimal performance.",
       "Installed, configured, and upgraded computer systems, networks, and peripherals.",
-      "Provided technical support and network troubleshooting for end users."
-    ]
-  }
+      "Provided technical support and network troubleshooting for end users.",
+    ],
+  },
 ];
 
 export default function WorkExperience() {
@@ -37,8 +37,10 @@ export default function WorkExperience() {
         transition={{ duration: 0.5 }}
       >
         {/* Section Header */}
-        <h3 className="text-2xl font-bold flex items-center gap-2 mb-8
-          text-gray-900 dark:text-gray-100">
+        <h3
+          className="text-2xl font-bold flex items-center gap-2 mb-8
+          text-gray-900 dark:text-gray-100"
+        >
           <FiBriefcase className="text-indigo-600 dark:text-indigo-400" />
           Work Experience
         </h3>
@@ -52,7 +54,7 @@ export default function WorkExperience() {
                 bg-white dark:bg-gray-800
                 rounded-xl shadow
                 border border-gray-100 dark:border-gray-700
-                border-l-4 border-l-indigo-600 dark:border-l-indigo-400
+
                 p-6
               "
             >
