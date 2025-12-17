@@ -38,56 +38,56 @@ export default function About() {
           p-10
         "
       >
-        {/* Header */}
-        <div className="text-center mb-10">
-          <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-3">
-            About Me
-          </h2>
-          <p className="text-gray-600 dark:text-gray-400">
-            ICT Graduate • Software Developer • University Office Assistant
-          </p>
-        </div>
+{/* Header */}
+  <div className="text-center mb-10">
+    <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-3">
+      About Me
+    </h2>
+    <p className="text-gray-600 dark:text-gray-400">
+      ICT Professional • Software Developer • Systems Support
+    </p>
+  </div>
 
-        {/* Intro */}
-        <div className="flex items-start space-x-4 mb-8">
-          <FiUser className="w-15 h-15 text-indigo-600 dark:text-indigo-400 mt-1" />
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-            I am <strong>Masautso Ned Mwanza</strong>, an ICT graduate from
-            <strong> Mzuzu University</strong> with hands-on experience in
-            software development, system administration, and institutional ICT
-            operations. I currently serve as a
-            <strong> University Office Assistant</strong> at
-            <strong> DMI – St. John The Baptist University</strong>.
-          </p>
-        </div>
+  {/* Intro */}
+  <div className="flex items-start space-x-4 mb-8">
+    <FiUser className="w-15 h-15 text-indigo-600 dark:text-indigo-400 mt-1" />
+    <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+      I am <strong>Masautso Ned Mwanza</strong>, an ICT professional with a
+      Bachelor’s degree from <strong>Mzuzu University</strong> and hands-on
+      experience in software development, system administration, and
+      institutional ICT operations. I currently work as a
+      <strong> University Office Assistant</strong> at
+      <strong> DMI – St. John The Baptist University</strong>.
+    </p>
+  </div>
 
-        {/* What I Do */}
-        <div className="flex items-start space-x-4 mb-8">
-          <FiCode className="w-15 h-15 text-indigo-600 dark:text-indigo-400 mt-1" />
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-            My work focuses on building reliable digital systems, managing
-            institutional websites, and developing software solutions that
-            improve service delivery. I work with PHP, JavaScript, React,
-            MySQL, and modern web technologies.
-          </p>
-        </div>
+
 
         {/* Expandable Content */}
         <motion.div
           initial={false}
           animate={{ height: showMore ? "auto" : 0, opacity: showMore ? 1 : 0 }}
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.6 }}
           className="overflow-hidden"
         >
+                  {/* What I Do */}
+        <div className="flex items-start space-x-4 mb-8">
+          <FiCode className="w-15 h-15 text-indigo-600 dark:text-indigo-400 mt-1" />
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+            My work focuses on building reliable digital systems, managing
+            institutional websites, and developing software solutions that
+            improve service delivery. I work with PHP, JavaScript, Next.js, Node.js, React,
+            MySQL, MongoDb, and modern Software Technologies.
+          </p>
+        </div>
+
           <div className="flex items-start space-x-4 mb-8 mt-4">
             <FiBriefcase className="w-15 h-15 text-indigo-600 dark:text-indigo-400 mt-1" />
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              In my current role, I manage and update the university website,
-              develop online admission application features, and prepare
-              institutional reports and official meeting minutes. Academically,
-              I have designed and implemented large-scale systems including a
-              climate-smart farming platform and a national housing management
-              system with integrated mobile payments.
+              I work at the intersection of technology and operations, helping keep digital platforms 
+              stable, functional, and user-friendly. Alongside this role, I have built end-to-end systems 
+              that solve real-world problems, including smart agriculture and digital housing solutions 
+              with integrated mobile payments
             </p>
           </div>
         </motion.div>

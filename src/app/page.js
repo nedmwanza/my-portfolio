@@ -11,18 +11,16 @@ export default function Hero() {
         <div className="space-y-6">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100">
             Hi, I’m{" "}
-            <span className="text-indigo-600 dark:text-indigo-400">
+            <span className="font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
               Ned Mwanza
             </span>
           </h1>
           <h2 className="text-xl sm:text-2xl font-semibold text-gray-700 dark:text-gray-300">
-            Software Developer | ICT Graduate
+            Software Developer | ICT Professional{" "}
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-md">
-            Recent ICT graduate with hands-on experience in software
-            development, system maintenance, and web-based solutions. Passionate
-            about building innovative, practical, and user-friendly
-            applications.
+            Experienced in full-stack web development, system administration,
+            and API-driven solutions.
           </p>
 
           {/* CTA Buttons */}

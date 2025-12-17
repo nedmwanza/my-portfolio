@@ -14,13 +14,13 @@ const projects = [
     demo: "https://example.com/tobacco-system",
   },
   {
-    title: "SMHC e-Housing Management System",
+    title: "e-Housing Management System",
     year: "2024",
     period: "Academic & Industry Supervised Project",
     description:
       "A digital housing management system supporting applications, allocations, contracts, invoices, payments, renewals, and automated reminders.",
     tech: "PHP, MySQL, JavaScript, HTML/CSS",
-    github: "https://github.com/nedmwanza/smart-housing",
+    github: "https://github.com/nedmwanza/mhc",
     demo: "https://example.com/smhc",
   },
 ];
