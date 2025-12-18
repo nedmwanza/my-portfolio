@@ -11,7 +11,7 @@ const projects = [
       "A smart farming system integrating weather data and crop lifecycle models to automate farming tasks, generate real-time alerts, and support sustainable agricultural practices.",
     tech: "Node.js, MongoDB, Next.js",
     github: "https://github.com/nedmwanza/tobacco-tpis",
-    demo: "https://example.com/tobacco-system",
+    demo: "https://my-portfolio-wheat-beta-43.vercel.app/",
   },
   {
     title: "e-Housing Management System",
@@ -20,14 +20,14 @@ const projects = [
     description:
       "A digital housing management system supporting applications, allocations, contracts, invoices, payments, renewals, and automated reminders.",
     tech: "PHP, MySQL, JavaScript, HTML/CSS",
-    github: "https://github.com/nedmwanza/mhc",
-    demo: "https://example.com/smhc",
+    github: "https://github.com/nedmwanza/tobacco-tpis",
+    demo: "https://my-portfolio-wheat-beta-43.vercel.app/",
   },
 ];
 
 export default function Projects() {
   return (
-    <section className="p-4 mb-20">
+    <section className="py-5 px-2 md:px-60">
       {/* Section Header */}
       <h3 className="text-2xl font-bold flex items-center gap-2 mb-8 text-gray-900 dark:text-white">
         <FiLayers className="text-indigo-600 dark:text-indigo-400" />
