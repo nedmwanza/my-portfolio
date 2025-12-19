@@ -26,7 +26,7 @@ function Footer() {
               label: "WhatsApp",
             },
             {
-              href: "mailto:mwanzamasautso363@gmail.com",
+              href: "mailto:nedmwanza@gmail.com",
               icon: <FiMail size={18} />,
               label: "Email",
             },

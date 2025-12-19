@@ -84,7 +84,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://wa.me/265888138980"
+              href="https://wa.me/2650888138980"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
@@ -92,7 +92,7 @@ export default function Contact() {
               <FaWhatsapp size={22} />
             </a>
             <a
-              href="https://www.linkedin.com/in/ned-mwanza-6b0412367"
+              href="mailto:nedmwanza@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
