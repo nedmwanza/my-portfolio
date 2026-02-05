@@ -22,7 +22,7 @@ export async function POST(req) {
     const text = await response.text();
 
     // 👇 log raw response to debug
-    console.log("CTECH RAW RESPONSE:", text);
+    console.log("CTECH RAW RESPONSE:", text);``
 
     // Convert to JSON manually
     const data = JSON.parse(text);

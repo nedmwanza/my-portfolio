@@ -55,7 +55,7 @@ export default function About() {
             I am <strong>Masautso Ned Mwanza</strong>, an ICT professional with
             a Bachelor’s degree from <strong>Mzuzu University</strong> and
             hands-on experience in software development, system administration,
-            and institutional ICT operations. I currently work as a
+            and institutional ICT operations. I worked as a
             <strong> University Office Assistant</strong> at
             <strong> DMI – St. John The Baptist University</strong>.
           </p>

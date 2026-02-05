@@ -6,12 +6,12 @@ const experiences = [
   {
     title: "University Office Assistant",
     company: "DMI–St. John The Baptist University",
-    period: "Jun 2025 – Present",
+    period: "April 2025",
     details: [
-      "Manage and update the university website and online systems.",
-      "Develop features for online admission applications and digital forms.",
-      "Prepare institutional reports, meeting minutes, and administrative documentation.",
-      "Support academic and administrative ICT operations.",
+      "Managed and updated the university website and online systems.",
+      "Developed features for online admission applications and digital forms.",
+      "Prepared institutional reports, meeting minutes, and administrative documentation.",
+      "Supported academic and administrative ICT operations.",
     ],
   },
   {
